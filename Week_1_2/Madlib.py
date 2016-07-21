@@ -1,0 +1,12 @@
+day_of_week = input("Can you give me a day of the week?")
+house_item = input("Can you give me a typical household item?")
+adjective_one = input("Can you give me an adjective?")
+number_one = input("Can you give me a number?")
+exclamation = input("Can you give me an exclaimation?")
+verbing = input("Can you give me a verb ending in -ing?")
+number_two = input("Can you give me another number?")
+body_part = input("Can you give me a body part?")
+subject = input("Can you give me a school subject?")
+adjective_two = input("Can you give me another adjective?")
+story = "Last " + day_of_week + ", I ran into a(n) " + house_item + " and it was a very " + adjective_one + " experience. I said hello and it jumped " + number_one + " feet into the air.  I looked at it curiously and shouted " + exclamation + "! It took a step towards me and started " + verbing + ". Then I joined in.  We continued " + verbing + " for " + number_two + " hours, until we became tired. Then we high-fived using our " + body_part + " and said goodbye to each other.  The next day, I told my " + subject + " teacher about it and she said I was " + adjective_two + "."
+print(story)
