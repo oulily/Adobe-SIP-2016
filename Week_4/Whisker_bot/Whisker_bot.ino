@@ -16,8 +16,8 @@ void setup() {
   servoRight.writeMicroseconds(1500);
 }
   void forward() {
-  servoLeft.writeMicroseconds(1700);
-  servoRight.writeMicroseconds(1300);
+    servoLeft.writeMicroseconds(1700);
+    servoRight.writeMicroseconds(1300);
   }
   void backward() {
     servoLeft.writeMicroseconds(1300);
@@ -33,31 +33,28 @@ void setup() {
   }
 void loop() {
   // put your main code here, to run repeatedly:
-  forward();
-  if(digitalRead(SENSOR_R) == 0) {
+  //right sensor = left whisker
+  //left sensor = right whisker
+  if(digitalRead(SENSOR_L) == 0) {
     backward();
     delay(800);
     left();
     delay(500);
-    //Serial.print("right touching");
   }
-  if(digitalRead(SENSOR_L) == 0) {
+  if(digitalRead(SENSOR_R) == 0) {
     backward();
     delay(800);
     right();
     delay(500);
-    //Serial.print("left touching");
   }
   if(digitalRead(SENSOR_R) == 0 && digitalRead(SENSOR_L == 0)) {
     backward();
     delay(1000);
     right();
-    delay(500);
-    //Serial.print("both touching");
+    delay(1000);
   }
   else {
     forward();
-    //Serial.print("not touching");
   }
 }      
 
