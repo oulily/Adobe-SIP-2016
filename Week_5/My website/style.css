@@ -1,0 +1,25 @@
+body {
+	background-color: #660000;
+}
+.navigation {
+	padding: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 40px;
+	display: inline-block;
+	background-color: #ffe6e6;
+
+}
+img {
+	margin: 50px;
+
+}
+#intro {
+	margin: 40px;
+	text-align: center;
+	display: inline-block;
+	padding: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:#ffe6e6;
+}
