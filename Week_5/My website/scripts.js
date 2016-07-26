@@ -12,6 +12,10 @@ function myFunction() {
 	document.getElementById("myDropDown").classList.toggle("show");
 }
 
+window.onload= function() {
+	$(".allProjects").hide();
+	var dropItem
+}
 // document.addEventListener(load) = function() {
 // 	var div = document.getElementByClassName('profile')[0];
 // 	document.addEventListener('click', changePhoto);
