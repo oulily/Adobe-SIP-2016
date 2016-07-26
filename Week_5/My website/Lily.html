@@ -3,78 +3,73 @@
 	<head>
 		<title>Lily's Page</title>
 		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="scripts.js"></script>
 	</head>
 	<body>
+		<!-- navigation bar -->
 		<nav id = "navbar">
-			<h3 class = "navigation">
-				Home
-			</h3>
-			<h3 class = "navigation">
-				Projects
-			</h3>
-			<h3 class = "navigation">
-				Hobbies
-			</h3>
-			<h3 class = "navigation">
-				Fun w/Fam
-			</h3>
-			<h3 class = "navigation">
-				About
-			</h3>
+			<div class = "dropdown">
+  				<button onclick="myFunction()" class="dropbtn">Home</button>
+  				<!-- <div id="myDropdown" class="dropdown-content">
+				   <h4>Arduino</h4>
+				   <h4>Runner Game<h4>
+				   <h4>Scratch</h4>
+				</div> -->
+			</div>
+			<div class = "dropdown">
+  				<button onclick="myFunction()" class="dropbtn">Projects</button>
+  				<div id="myDropdown" class="dropdown-content">
+				   <h4>Arduino</h4>
+				   <h4>Runner Game</h4>
+				   <h4>Scratch</h4>
+				</div>
+			</div>
+			<div class = "dropdown">
+  				<button onclick="myFunction()" class="dropbtn">Hobbies</button>
+  				<div id="myDropdown" class="dropdown-content">
+				   <h4>Dance</h4>
+				   <h4>Music<h4>
+				</div>
+			</div>
+			<div class = "dropdown">
+  				<button onclick="myFunction()" class="dropbtn">Fun w/Fam</button>
+			</div>
+			<div class = "dropdown">
+  				<button onclick="myFunction()" class="dropbtn">About</button>
+			</div>
 		</nav>
+		<!-- intro -->
 		<div>
-			<h1 class = "heading">
-				Introduction
-			</h1>
+			<h1 class = "heading">Introduction</h1>
 		</div>
-		<div>
-			<img class = "intropic" src = "http://petalbytes.com/images/default_avatar.jpg"/>
-			<p class = "intropic">
-				blah blah blah some stuff about me
-			</p>
+		<div><img class = "intropic" src = "http://petalbytes.com/images/default_avatar.jpg"/>
+			<p class = "intropic" id = "aboutme">some stuff about me</p>
 		</div>
+		<!-- recent projects -->
 		<div>
-			<h1 class = "heading">
-				Recent Projects
-			</h1>
+			<h1 class = "heading">Recent Projects</h1>
 			<div class = "picture">
 				<img src = "http://knoxville.neighborhoodscope.com/client-content/knoxville_neighborhoodscope_com/themes/zinox-media/assets/img/noimagedefault.jpg"/>
-				<h4>
-					date
-				</h4>
-				<p>
-					this is a picture
-				</p>
+				<h4>date</h4>
+				<p>this is a picture</p>
 			</div>
 			<div class = "picture">
 				<img src = "http://knoxville.neighborhoodscope.com/client-content/knoxville_neighborhoodscope_com/themes/zinox-media/assets/img/noimagedefault.jpg"/>
-				<h4>
-					date
-				</h4>
-				<p>
-					this is a picture
-				</p>
+				<h4>date</h4>
+				<p>this is a picture</p>
 			</div>
 			<div class = "picture">
 				<img src = "http://knoxville.neighborhoodscope.com/client-content/knoxville_neighborhoodscope_com/themes/zinox-media/assets/img/noimagedefault.jpg"/>
-				<h4>
-					date
-				</h4>
-				<p>
-					this is a picture
-				</p>
+				<h4>date</h4>
+				<p>this is a picture</p>
 			</div>
 		</div>
 		<div>
-			<h1 class = "heading">
-				Latest Activity
-			</h1>
+		<!-- latest activity -->
+			<h1 class = "heading">Latest Activity</h1>
 			<img id = "recentpic" src = "http://knoxville.neighborhoodscope.com/client-content/knoxville_neighborhoodscope_com/themes/zinox-media/assets/img/noimagedefault.jpg"/>
-			<p>
-				stuff about this project
-			</p1>
-			
-
+			<p>stuff about this activity</p1>
 		</div>
 	</body>
 </html>

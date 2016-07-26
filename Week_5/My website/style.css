@@ -11,23 +11,12 @@ body {
 	padding-bottom: 10px;
 
 }
-.navigation {
-	padding: 6px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin: 40px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	display: inline-block;
-	background-color: #ffe6e6;
 
-}
 .heading {
-	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 25px;
 	margin: 20px;
 	text-align: center;
-	padding: 1px;
+	padding: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
 	background-color:rgba(251, 255, 255, 0.49);
@@ -40,14 +29,59 @@ body {
 	display: inline-block;
 }
 
+#aboutme {
+
+
+}
+
 .picture {
 	display: inline-block;
 	text-align: center;
-	margin: 55px;
+	margin: 65px;
 
 }
 #recentpic {
 	margin:100px;
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+.dropbtn {
+    background-color: #ffe6e6;
+    padding: 16px;
+    font-size: 16px;
+    padding: 6px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: inline-block;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content h4{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	display: block;
+}
+.show {
+	display: block;
+}
+.dropbtn:hover{
+	background-color: #e4bbbb;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
