@@ -1,3 +1,5 @@
+/*HOME PAGE*/
+
 body {
 	background-color: #8a3535;
 }
@@ -7,19 +9,20 @@ body {
 	background-color: #460f0f;
 	margin-bottom: 30px;
 	margin-top: 15px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-
 }
 
 .heading {
 	font-size: 25px;
 	margin: 20px;
 	text-align: center;
-	padding: 5px;
+	padding: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color:rgba(251, 255, 255, 0.49);
+	background-color:#e0e0e0;
+}
+#image {
+	width: 150px;
+	height: 200px;
 }
 .intropic {
 	margin-left: 100px;
@@ -28,12 +31,6 @@ body {
 	margin-bottom: 20px;
 	display: inline-block;
 }
-
-#aboutme {
-
-
-}
-
 .picture {
 	display: inline-block;
 	text-align: center;
@@ -46,13 +43,14 @@ body {
 	margin-bottom: 40px;
 }
 
+/*dropdown menu*/
 .dropbtn {
+	font-family: "Times New Roman", Times, serif;
     background-color: #ffe6e6;
-    padding: 16px;
-    font-size: 16px;
-    padding: 6px;
+    padding: 3px;
 	padding-left: 30px;
 	padding-right: 30px;
+	font-size: 19px;
 	margin: 40px;
 	margin-bottom: 10px;
 	margin-top: 10px;
@@ -70,11 +68,16 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-.dropdown-content h4{
+.dropdown-content a{
 	color: black;
-    padding: 12px 16px;
+    padding: 16px;
+    margin-top: 0px;
+    margin-bottom:0px;
     text-decoration: none;
 	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #ccccb3
 }
 .show {
 	display: block;
@@ -84,4 +87,20 @@ body {
 }
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.justButton {
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #ffe6e6;
+    padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 19px;
+	margin: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font: auto;
 }
