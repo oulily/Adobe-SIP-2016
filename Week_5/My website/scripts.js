@@ -14,7 +14,16 @@ function myFunction() {
 
 window.onload= function() {
 	$(".allProjects").hide();
-	var dropItem
+	var dropItem = event.target.innerHTML;
+	if(dropItem == "Projects") {
+		$("#projects").show();
+	}
+	if(dropItem == "Hobbies") {
+		$("#hobbies").show();
+	}
+	if(dropItem == "Fun w/Fam") {
+		$("#funfam").show();
+	}
 }
 // document.addEventListener(load) = function() {
 // 	var div = document.getElementByClassName('profile')[0];
