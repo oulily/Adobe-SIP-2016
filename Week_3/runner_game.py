@@ -84,7 +84,7 @@ while not done:
     screen.fill(BACKGROUND_COLOR)
 
     # --- Drawing code should go here
-    #RUNNER
+    # RUNNER
     player1 = RunnerSprite(GREY, 50, 50, 50, pygame.mouse.get_pos())
     goodsprite1 = RunnerSprite(GREY, 50, 50, 50, (random.randint(0, 800), random.randint(0, 600)))
     goodsprite2 = RunnerSprite(GREY, 50, 50, 50, (random.randint(0, 800), random.randint(0, 600)))

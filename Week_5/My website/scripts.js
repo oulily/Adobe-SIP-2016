@@ -7,13 +7,12 @@
 // 	var image = $(".profile").children()[0];
 // 	image.src = newurl;
 // }
+window.onload = function() {
+	$('.dropdown').on('click', resetDisplay);
+}
 
 function myFunction() {
 	document.getElementById("myDropDown").classList.toggle("show");
-}
-
-window.onload = function() {
-	$('.dropdown').on('click', resetDisplay);
 }
 
 function resetDisplay(event){
